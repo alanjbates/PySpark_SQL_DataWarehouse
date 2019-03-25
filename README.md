@@ -7,4 +7,4 @@ I was able to execute Spark SQL within a Python program. Also know that if you a
 
 #Example 1, tableize U.S. Gazetteer files provided by the United States Census Bureau. These files provide a listing of geographic areas for selected areas. You can find the Gazetteer files for 2017 and 2018 in the data directory under the gazetteer folder. These directories contain data for congressional districts, core statistical areas, counties, county subdivisions, schools, census tracts, urban areas, zip codes, and places of interest. You will combine the data from 2017 and 2018, and create tables with the filename of the source (e.g., places.csv is saved in the places table).
 
-#Example 2, tableize Airport flight data.
+#Example 2, tableize Airport flight data.  Then we can write SQL to perform aggregations and summaries just as if the data were tableized in a traditiona RDBMS.
